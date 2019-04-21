@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario_head" translatesAutoresizingMaskIntoConstraints="NO" id="FTJ-pV-ZZO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cfm" translatesAutoresizingMaskIntoConstraints="NO" id="FTJ-pV-ZZO">
                                 <rect key="frame" x="99" y="252.5" width="176" height="161"/>
                             </imageView>
                         </subviews>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mario_head" width="176" height="161"/>
+        <image name="cfm" width="176" height="161"/>
     </resources>
 </document>
