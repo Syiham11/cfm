@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:cfm/home_page.dart';
 import 'package:cfm/home_utama.dart';
 
 class LoginPage extends StatefulWidget {
@@ -23,7 +22,7 @@ class _LoginPageState extends State<LoginPage> {
     final email = TextFormField(
       keyboardType: TextInputType.emailAddress,
       autofocus: false,
-      initialValue: 'cfm@gmail.com',
+      initialValue: 'alucard@gmail.com',
       decoration: InputDecoration(
         hintText: 'Email',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
