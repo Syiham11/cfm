@@ -15,6 +15,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  carousel_pro:
+    dependency: "direct dev"
+    description:
+      name: carousel_pro
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.13"
   charcode:
     dependency: transitive
     description:
@@ -36,6 +43,34 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
+  date_format:
+    dependency: "direct dev"
+    description:
+      name: date_format
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.6"
+  firebase_core:
+    dependency: transitive
+    description:
+      name: firebase_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.4"
+  firebase_database:
+    dependency: "direct dev"
+    description:
+      name: firebase_database
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.3"
+  firebase_storage:
+    dependency: "direct dev"
+    description:
+      name: firebase_storage
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0+1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -46,6 +81,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  image_picker:
+    dependency: "direct dev"
+    description:
+      name: image_picker
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.4"
   matcher:
     dependency: transitive
     description:
@@ -144,3 +186,4 @@ packages:
     version: "2.0.8"
 sdks:
   dart: ">=2.1.1-dev.0.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"
