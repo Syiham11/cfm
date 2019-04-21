@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cfm/home_utama.dart';
+import 'package:cfm/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   static String tag = 'login-page';
@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
           borderRadius: BorderRadius.circular(24),
         ),
         onPressed: () {
-          Navigator.of(context).pushNamed(HomeUtama.tag);
+          Navigator.of(context).pushNamed(HomePage.tag);
         },
         padding: EdgeInsets.all(12),
         color: Colors.lightBlueAccent,
