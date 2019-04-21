@@ -3,7 +3,7 @@ import 'package:cfm/tabs/first.dart';
 import 'package:cfm/tabs/second.dart';
 import 'package:cfm/tabs/third.dart';
 import 'package:cfm/home_page.dart';
-import 'package:cfm/tabs/listview_product.dart';
+// import 'package:cfm/tabs/listview_product.dart';
 
 
 void main() {
@@ -79,7 +79,7 @@ class MyHomeState extends State<HomeUtama> with SingleTickerProviderStateMixin {
       // Set the TabBar view as the body of the Scaffold
       body: new TabBarView(
         // Add tabs as widgets
-        children: <Widget>[new ListViewProduct(), new SecondTab(), new ThirdTab()],
+        children: <Widget>[new FirstTab(), new SecondTab(), new ThirdTab()],
         
         // set the controller
         controller: controller,
