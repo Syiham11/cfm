@@ -2,8 +2,8 @@
 #include "GeneratedPluginRegistrant.h"
 
 
-// @import UIKit;
-// @import Firebase;
+@import UIKit;
+@import Firebase;
 
 @implementation AppDelegate
 

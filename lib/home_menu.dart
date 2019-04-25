@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:cfm/tabs/first.dart';
-import 'package:cfm/tabs/second.dart';
-import 'package:cfm/tabs/third.dart';
-import 'package:cfm/home_page.dart';
-import 'package:cfm/tabs/listview_product.dart';
+import 'package:cfm/task/first.dart';
+import 'package:cfm/task/second.dart';
+import 'package:cfm/task/third.dart';
+// import 'package:../cfm/home_page.dart';
+//import 'package:cfm/tabs/listview_product.dart';
 
 
 void main() {
@@ -11,17 +11,17 @@ void main() {
       // Title
       title: "Using Tabs",
       // Home
-      home: new HomeUtama()));
+      home: new HomeMenu()));
 }
 
-class HomeUtama extends StatefulWidget {
-   static String tag = 'home-utama';
+class HomeMenu extends StatefulWidget {
+   static String tag = 'home-menu';
   @override
   MyHomeState createState() => new MyHomeState();
 }
 
 // SingleTickerProviderStateMixin is used for animation
-class MyHomeState extends State<HomeUtama> with SingleTickerProviderStateMixin {
+class MyHomeState extends State<HomeMenu> with SingleTickerProviderStateMixin {
 
   //  int _selectedTab = 0;
     // final _pageOptions = [
@@ -60,26 +60,26 @@ class MyHomeState extends State<HomeUtama> with SingleTickerProviderStateMixin {
       // Appbar
      
         // Title
-        title: new Text("Work Request"),
+        title: new Text("#WR-196371 Request via application from Dev Engineer"),
         // Set the background color of the App Bar
         backgroundColor: Colors.white,
          bottom: new TabBar(
           controller: controller,
           tabs: <Widget>[
-             new Tab(text: "Outstanding",),
+             new Tab(text: "Tracker",),
 
 
-            new Tab(text: "Completed"), 
+            new Tab(text: "Photo Before"), 
 
 
-            new Tab(text: "Disapprove"),
+            new Tab(text: "Photo After"),
           ]
         )
       ),
       // Set the TabBar view as the body of the Scaffold
       body: new TabBarView(
         // Add tabs as widgets
-        children: <Widget>[new ListViewProduct(), new SecondTab(), new ThirdTab()],
+        children: <Widget>[new FirstTab(), new SecondTab(), new ThirdTab()],
         
         // set the controller
         controller: controller,
@@ -107,16 +107,16 @@ class MyHomeState extends State<HomeUtama> with SingleTickerProviderStateMixin {
       //   ),
       // ),
 
-        bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Home")),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.business), title: Text("Company")),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.account_circle), title: Text("Account")),
-        ],
-        // onTap: (int i)=>debugPrint('Tapped $i'),
-      ),
+      //   bottomNavigationBar: BottomNavigationBar(
+      //   items: [
+      //     BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Home")),
+      //     BottomNavigationBarItem(
+      //         icon: Icon(Icons.business), title: Text("Company")),
+      //     BottomNavigationBarItem(
+      //         icon: Icon(Icons.account_circle), title: Text("Account")),
+      //   ],
+      //   // onTap: (int i)=>debugPrint('Tapped $i'),
+      // ),
 
 
 
