@@ -7,14 +7,13 @@ environment:
 
 
 dependencies:
-  flutter_launcher_icons: ^0.7.0
   flutter:
     sdk: flutter
   # firebase_database: ^2.0.2
-  # image_picker: ^0.5.0+3
+  image_picker: ^0.5.0+3
   # firebase_storage: ^2.1.0+1
-  # date_format: ^1.0.6
-  # carousel_pro: ^0.0.13
+  date_format: ^1.0.6
+  carousel_pro: ^0.0.13
 
 
  
